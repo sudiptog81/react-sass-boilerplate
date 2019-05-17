@@ -7,7 +7,7 @@
     "start": "serve",
     "dev": "webpack-dev-server --open --mode development",
     "build": "npm run lint && webpack --mode production",
-    "test": "jest && codecov",
+    "test": "jest -u && codecov",
     "lint": "eslint --fix src/**/*.js*"
   },
   "keywords": [],
