@@ -1,3 +1,14 @@
 {
-    "public": "dist"
+    "name": "react-sass-boilerplate",
+    "public": true,
+    "version": 2,
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/static-build"
+        }
+    ],
+    "github": {
+        "enabled": true
+    }
 }
