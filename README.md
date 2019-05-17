@@ -4,6 +4,8 @@
 [![Travis (.com)](https://img.shields.io/travis/com/sudiptog81/react-sass-boilerplate.svg?logo=travis&style=flat-square)](https://travis-ci.com/sudiptog81/react-sass-boilerplate)
 [![Codecov](https://img.shields.io/codecov/c/gh/sudiptog81/react-sass-boilerplate.svg?style=flat-square)](https://codecov.io/gh/sudiptog81/react-sass-boilerplate)
 
+[View Demo on Now.sh](https://react-sass-boilerplate-4uavq68u5.now.sh/)
+
 ## Author
 
 [Sudipto Ghosh](https://sudipto.ghosh.pro)
