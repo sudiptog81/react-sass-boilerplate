@@ -1,0 +1,19 @@
+pipeline:
+  install:
+    image: node
+    commands:
+      - node -v
+      - npm -v
+      - npm install
+
+  test:
+    image: node
+    group: tests
+    environment:
+      - CODECOV_TOKEN=$$CODECOV_TOKEN
+    build_args_from_env:
+      - CODECOV_TOKEN
+    secrets:
+      - CODECOV_TOKEN
+    commands:
+      - npm test

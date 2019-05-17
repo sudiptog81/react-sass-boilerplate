@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap");
+
+div#spinner {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  hr {
+    margin: 1em auto;
+    width: 30%;
+  }
+  img {
+    width: 10em;
+    height: 10em;
+    position: relative;
+    animation: spin 5s linear infinite forwards;
+  }
+  h1 {
+    color: #fff;
+    font-family: "Consolas", monospace;
+    span#react {
+      color: #00d8ff;
+      font-family: "Fira Sans", sans-serif;
+      font-size: 1.4em;
+    }
+    span#sass {
+      font-family: "Grand Hotel", cursive;
+      color: #c69;
+      font-size: 1.4em;
+    }
+    span#boiler {
+      font-size: 0.98em;
+    }
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
