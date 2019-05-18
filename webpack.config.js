@@ -34,9 +34,9 @@ module.exports = (env, argv) => {
         },
         entry: "./src/index.js",
         output: {
-            path: path.resolve(__dirname, "./dist/js"),
+            path: path.resolve(__dirname, "./dist/"),
             publicPath: "/",
-            filename: "bundle.js"
+            filename: "./js/bundle.js"
         },
         resolve: {
             extensions: ["*", ".js", ".jsx"]
@@ -46,8 +46,8 @@ module.exports = (env, argv) => {
         },
         plugins: [
             new MiniCssExtractPlugin({
-                filename: "../css/[name].css",
-                chunkFilename: "../css/[id].css"
+                filename: "./css/[name].css",
+                chunkFilename: "./css/[id].css"
             })
         ]
     };

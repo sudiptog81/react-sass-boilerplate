@@ -5,8 +5,8 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "serve",
-    "dev": "webpack-dev-server --open --mode development",
-    "build": "npm run lint && webpack --mode production",
+    "dev": "cp -r src/assets/* dist  && webpack-dev-server --open --mode development",
+    "build": "npm run lint && webpack --mode production && cp -r src/assets/* dist ",
     "test": "jest -u && codecov",
     "now-build": "npm run build",
     "lint": "eslint --fix src/**/*.js*"

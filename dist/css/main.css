@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap);
-div#spinner {
+div.spinner {
   text-align: center;
   margin: 0 auto;
   width: 50%;
@@ -8,26 +8,26 @@ div#spinner {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
-  div#spinner hr {
+  div.spinner hr {
     margin: 1em auto;
     width: 30%; }
-  div#spinner img {
+  div.spinner img {
     width: 10em;
     height: 10em;
     position: relative;
     animation: spin 5s linear infinite forwards; }
-  div#spinner h1 {
+  div.spinner h1 {
     color: #fff;
     font-family: "Consolas", monospace; }
-    div#spinner h1 span#react {
+    div.spinner h1 span#react {
       color: #00d8ff;
       font-family: "Fira Sans", sans-serif;
       font-size: 1.4em; }
-    div#spinner h1 span#sass {
+    div.spinner h1 span#sass {
       font-family: "Grand Hotel", cursive;
       color: #c69;
       font-size: 1.4em; }
-    div#spinner h1 span#boiler {
+    div.spinner h1 span#boiler {
       font-size: 0.98em; }
 
 @keyframes spin {
